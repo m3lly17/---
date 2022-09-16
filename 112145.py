@@ -1,0 +1,8 @@
+a=input()
+e,r,t = a.split(' ')
+x = int(e)
+y=int(r)
+z=int(t)
+print(x+y+z)
+print(x*y*z)
+print('%.3f' % ((x+y+z)/3))
